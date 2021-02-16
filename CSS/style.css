@@ -19,6 +19,7 @@ body{
 }
 /* MAIN */
 
+/* PROMO */
 .promo{
     padding-top: 175px;
     margin-bottom: 175px;
@@ -43,7 +44,7 @@ body{
 .promo__btn:hover{
     color: black;
 }
-/*  */
+/* ABOUT */
 .about{
     background-color: white;
     padding-top: 125px;
@@ -55,7 +56,7 @@ body{
 .about__desc{
     text-align: center;
 }
-/*  */
+/* SKILLS */
 .skills{
     padding-top: 165px;
     padding-bottom: 165px;
@@ -74,7 +75,7 @@ body{
 progress::-webkit-progress-value {
     background: #10c9c3;
 }
-/*  */
+/* NUMBERS */
 .numbers{
     background-color: #10c9c3;
     padding: 100px 0;
@@ -88,7 +89,7 @@ progress::-webkit-progress-value {
 .numbers__desc{
     color: white;
 }
-/*  */
+/* WORK */
 .work__item{
     height: 300px;
 }
@@ -122,7 +123,7 @@ progress::-webkit-progress-value {
 .work__btn:hover{
     color: #10c9c3;
 }
-/*  */
+/* PROCESS */
 .process{
     background-color: white;
     padding-top: 100px;
@@ -138,7 +139,7 @@ progress::-webkit-progress-value {
 .process__video{
     margin-top: 60px;
 }
-/*  */
+/* SERVICES */
 .services{
     padding: 100px 0;
 }
@@ -154,7 +155,7 @@ progress::-webkit-progress-value {
 .services__desc{
     text-align: center;
 }
-/*  */
+/* CAROUSEL */
 .carousel{
     background-color: #10c9c3;
     padding-bottom: 60px;
@@ -174,12 +175,12 @@ progress::-webkit-progress-value {
     font-size: 14px;
     letter-spacing: 2px;
 }
-/*  */
+/* CLIENTS */
 .clients{
     background-color: #ffffff;
     padding: 65px 0;
 }
-/*  */
+/* NEED */
 .need{
    padding: 100px 0; 
 }
