@@ -1,295 +1,287 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PirollDesign</title>
-    <!-- CSS -->
+    <title>site</title>
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-<!-- HEADER -->
-    <header class="header">
-        <div class="container-xl d-flex justify-content-between">
-            <div class="logo-box">
-                <img src="IMG/logo.png" alt="logo">
-            </div>
-            <nav class="nav">
-                <a href="#" class="nav__link">HOME</a>
-                <a href="#" class="nav__link">ABOUT</a>
-                <a href="#" class="nav__link">WORK</a>
-                <a href="#" class="nav__link">PROCESS</a>
-                <a href="#" class="nav__link">SERVICES</a>
-                <a href="#" class="nav__link">TESTIMONIALS</a>
-                <a href="#" class="nav__link">CONTACT</a>
-            </nav>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-xl">
+        <img class="navbar-brand" src="img/logo/logo.png" alt="Лого">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+           <a class="nav-item nav-link" href="#"> <span class="BlueC">HOME</span></a>
+            <a class="nav-item nav-link" href="#">ABOUT</a>
+            <a class="nav-item nav-link" href="#">WORK</a>
+            <a class="nav-item nav-link" href="#">PROCESS</a>
+            <a class="nav-item nav-link" href="#">SERVICES</a>
+            <a class="nav-item nav-link" href="#">TESTIMONIALS</a>
+            <a class="nav-item nav-link" href="#">CONTACT</a>
         </div>
-    </header>
-
-    <main class="main">
-        <section class="promo">
-            <div class="container-xl d-flex justify-content-end">
-                <div class="d-flex flex-column ">
-                <h2 class="promo__heading">
-                    We Design and Develop
-                </h2>
-                <p class="promo__desc">
-                    We are a new design studio based in USA. We have over  20 years of combined experience,and know a thing or two about designing websites and mobile apps.
-                </p>
-
-                <div class="btn-box">
-                <button class="promo__btn">
-                    CONTACT US
-                </button>
-                </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="about">
-            <div class="container-xl">
-                <div class="d-flex justify-content-center flex-column">
-                    <h2 class="about__heading">About Us</h2>
-                    <p class="about__desc mt-4">
-                        Divide have don't man wherein air fourth. Own itself make have night won't make.<br>A you under Seed appear which good give. Own give air without fowl moveth dry first<br> heaven fruit,dominion she'd won't very all.
+        </div>
+    </div>
+      </nav>
+      <section class="SectionBanner">
+        <div class="container-fluid">
+            <div class="FlexDiv">
+            <div class="banner">
+            <h1 class="bannerH1">We Design and Develop</h1>
+            <p class="bannerP">We are a new design studio based in USA. We have over <br>
+                20 years of combined experience, and know a thing or two<br>
+                about designing websites and mobile apps.</p>
+                <button class="bannerBtn">CONTACT US</button>
+        </div>
+        </div> 
+    </div>
+      </section>
+      <section class="About">
+        <div class="container-fluid">
+            <div class="AboutFlex">
+            <div class="AboutUs">
+                <h1 class="AboutH1">About US</h1>
+                <p class="AboutP">Divide have don't man wherein air fourth. Own itself make have night won't make. <br>
+                    A you under Seed appear which good give. Own give air without fowl moveth dry first <br>
+                    heaven fruit, dominion she'd won't very all. <br>
                     </p>
-                    <div class="d-flex justify-content-center mt-4">
-                        <img src="IMG/signature.png" alt="signature" class="about__image">
+                    <img class="AboutImg" src="img/signature.png" alt="Роспись">
+            </div>
+        </div>
+    </div>
+      </section>
+      <section class="skills">
+          <div class="container-xl">
+          <div class="d-flex flex-column">
+
+          <h2 class="skillsH2">Professional Skill</h2>
+          <p class="skillsP">UI/UX DESIGN   &nbsp;&nbsp;75%</p>
+              <progress value="75" max="100" class="skill__progress mt-2 mb-4"></progress>
+          <p class="skillsP">WEB DEVELOPENT    &nbsp;&nbsp;90%</p>
+              <progress value="90" max="100" class="skill__progress mt-2 mb-4"></progress>
+          <p class="skillsP">MARKETING    &nbsp;&nbsp;65%</p>
+              <progress value="65" max="100" class="skill__progress mt-2 mb-4"></progress>
+
+        </div>
+    </div>
+      </section>
+    <section class="numbers">
+        <div class="container-xl">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex  align-items-center">
+                    <div class="image-box">
+                        <img src="img/portfolio.png" alt="portfolio">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h6 class="numbers__heading">548</h6>
+                        <span class="numbers__description">PROJECTS COMPLETED</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="image-box">
+                        <img src="img/clock.png" alt="portfolio">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h6 class="numbers__heading">1465</h6>
+                        <span class="numbers__description">WORKING HOURS</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="image-box">
+                        <img src="img/star.png" alt="portfolio">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h6 class="numbers__heading">612</h6>
+                        <span class="numbers__description">POSITIVE FEEDBACKS</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="image-box">
+                        <img src="img/like.png" alt="portfolio">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h6 class="numbers__heading">735</h6>
+                        <span class="numbers__description">HAPPY CLIENTS</span>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="skills">
-            <div class="container-xl">
-                <div class="d-flex flex-column">
-                    <h2 class="skills__heading">Professional skills</h2>
-                    <div class="skills-list mt-4">
-                        <h6 class="skill">UI/UX DESIGN &nbsp;&nbsp;75%</h6>
-                        <progress value="75" max="100" class="skills__progress mt-2 mb-4"></progress>
-                        <h6 class="skill">WEB DEVELOPMENT &nbsp;&nbsp;90%</h6>
-                        <progress value="90" max="100" class="skills__progress mt-2 mb-4"></progress>
-                        <h6 class="skill">MARKETING &nbsp;&nbsp;65%</h6>
-                        <progress value="65" max="100" class="skills__progress mt-2 mb-4"></progress>
-                    </div>
-                </div>
+    <section class="work">
+        
+        <div class="row align-items-start">
+            <div class="col-3 work__item work__item_gr"></div>
+            <div class="col-3 work__item work__item_lg"></div>
+            <div class="col-3 work__item work__item_gr"></div>
+            <div class="col-3 work__item work__item_lg"></div>
+            <div class="col-3 work__item work__item_lg"></div>
+            <div class="col-3 work__item work__item_gr"></div>
+            <div class="col-3 work__item work__item_lg"></div>
+            <div class="col-3 work__item work__item_gr"></div>
+            <div class="col-12 work__container">
+                <span class="work__btn">LOAD MORE WORK</span>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="numbers">
-            <div class="container-xl">
-                <div class="d-flex justify-content-between">
-                    <div class="d-flex  align-items-center">
-                        <div class="image-box">
-                            <img src="IMG/portfolio.png" alt="portfolio">
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h6 class="numbers__heading">548</h6>
-                            <span class="numbers__desc">PROJECTS COMPLETED</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div class="image-box">
-                            <img src="IMG/clock.png" alt="portfolio">
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h6 class="numbers__heading">1465</h6>
-                            <span class="numbers__desc">WORKING HOURS</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div class="image-box">
-                            <img src="IMG/star.png" alt="portfolio">
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h6 class="numbers__heading">612</h6>
-                            <span class="numbers__desc">POSITIVE FEEDBACKS</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div class="image-box">
-                            <img src="IMG/like.png" alt="portfolio">
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h6 class="numbers__heading">735</h6>
-                            <span class="numbers__desc">HAPPY CLIENTS</span>
-                        </div>
-                    </div>
-                </div>
+    <section class="process">
+        <div class="container-xl">
+            <h2 class="process__heading">Our Work Process</h2>
+            <p class="process__desc">Was years it seasons was there form he in in them together over that,<br>third sixth gathered female creeping bearing behold years.</p>
+            <div class="process__video">
+                <iframe width="100%" height="570" src="https://www.youtube.com/embed/gJ2ep9EKXBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="work">
+    <section class="services">
+        <div class="container-xl">
             <div class="row align-items-start">
-                <div class="col-3 work__item work__item_gr"></div>
-                <div class="col-3 work__item work__item_lg"></div>
-                <div class="col-3 work__item work__item_gr"></div>
-                <div class="col-3 work__item work__item_lg"></div>
-                <div class="col-3 work__item work__item_lg"></div>
-                <div class="col-3 work__item work__item_gr"></div>
-                <div class="col-3 work__item work__item_lg"></div>
-                <div class="col-3 work__item work__item_gr"></div>
-                <div class="col-12 work__container">
-                    <a href="home.html" class="work__btn">LOAD MORE WORK</a>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/diamond.png" alt="diamond">
+                    </div>
+                    <span class="services__heading">UI/UX DESIGN</span>
+                    <p class="services__desc">Be set fourth land god darkness<br> make it wherein own</p>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/arc.png" alt="arc">
+                    </div>
+                    <span class="services__heading">WEB DEVELOPMENT</span>
+                    <p class="services__desc">A she'd them bring void moving<br> third she'd kind fill</p>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/phone.png" alt="phone">
+                    </div>
+                    <span class="services__heading">APP/MOBILE</span>
+                    <p class="services__desc">Dominion man second spirit he,<br>earth they're creeping</p>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/joy.png" alt="joy">
+                    </div>
+                    <span class="services__heading">GAME DESIGN</span>
+                    <p class="services__desc">Morning his saying moveth it<br> multiply appear life be</p>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/plane.png" alt="plane">
+                    </div>
+                    <span class="services__heading">SEO/MARKETING</span>
+                    <p class="services__desc">Give won't after land fill creeping<br> meat you,may</p>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/star2.png" alt="star">
+                    </div>
+                    <span class="services__heading">PHOTOGRAPHY</span>
+                    <p class="services__desc">Creepeth one seas cattle grass<br> give moving saw give</p>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/wand.png" alt="wand">
+                    </div>
+                    <span class="services__heading">GRAPHIC DESIGN</span>
+                    <p class="services__desc">Open,great whales air rule for,<br>fourth life whales</p>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <div class="image-box2">
+                        <img src="img/bucket.png" alt="bucket">
+                    </div>
+                    <span class="services__heading">ILLUSTRATIONS</span>
+                    <p class="services__desc">Whales likeness hath,man kind<br> for them air two won't</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="process">
-            <div class="container-xl">
-                <h2 class="process__heading">Our Work Process</h2>
-                <p class="process__desc">Was years it seasons was there form he in in them together over that,<br>third sixth gathered female creeping bearing behold years.</p>
-                <div class="process__video">
-                <iframe width="100%" height="570" src="https://www.youtube.com/embed/iBFBOUU9T88" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+    <section class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </section>
-
-        <section class="services">
-            <div class="container-xl">
-                <div class="row align-items-start">
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/diamond.png" alt="diamond">
-                        </div>
-                        <span class="services__heading">UI/UX DESIGN</span>
-                        <p class="services__desc">Be set fourth land god darkness<br> make it wherein own</p>
-                    </div>
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/arc.png" alt="arc">
-                        </div>
-                        <span class="services__heading">WEB DEVELOPMENT</span>
-                        <p class="services__desc">A she'd them bring void moving<br> third she'd kind fill</p>
-                    </div>
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/phone.png" alt="phone">
-                        </div>
-                        <span class="services__heading">APP/MOBILE</span>
-                        <p class="services__desc">Dominion man second spirit he,<br>earth they're creeping</p>
-                    </div>
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/joy.png" alt="joy">
-                        </div>
-                        <span class="services__heading">GAME DESIGN</span>
-                        <p class="services__desc">Morning his saying moveth it<br> multiply appear life be</p>
-                    </div>
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/plane.png" alt="plane">
-                        </div>
-                        <span class="services__heading">SEO/MARKETING</span>
-                        <p class="services__desc">Give won't after land fill creeping<br> meat you,may</p>
-                    </div>
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/star2.png" alt="star">
-                        </div>
-                        <span class="services__heading">PHOTOGRAPHY</span>
-                        <p class="services__desc">Creepeth one seas cattle grass<br> give moving saw give</p>
-                    </div>
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/wand.png" alt="wand">
-                        </div>
-                        <span class="services__heading">GRAPHIC DESIGN</span>
-                        <p class="services__desc">Open,great whales air rule for,<br>fourth life whales</p>
-                    </div>
-                    <div class="col-3 d-flex flex-column">
-                        <div class="image-box2">
-                            <img src="IMG/bucket.png" alt="bucket">
-                        </div>
-                        <span class="services__heading">ILLUSTRATIONS</span>
-                        <p class="services__desc">Whales likeness hath,man kind<br> for them air two won't</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="carousel">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <div class="d-flex flex-column">
-                      <span class="carousel__desc">“ Outstanding job and exceeded all expectations. It was a pleasure<br> to work with them on a sizable first project and am looking<br> forward to start the next one asap.“</span>
-                      <span class="carousel__auth">MICHAEL HOPKINS</span>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
                     <div class="d-flex flex-column">
                         <span class="carousel__desc">“ Outstanding job and exceeded all expectations. It was a pleasure<br> to work with them on a sizable first project and am looking<br> forward to start the next one asap.“</span>
                         <span class="carousel__auth">MICHAEL HOPKINS</span>
-                        </div>
-                  </div>
-                  <div class="carousel-item">
+                    </div>
+                </div>
+                <div class="carousel-item">
                     <div class="d-flex flex-column">
                         <span class="carousel__desc">“ Outstanding job and exceeded all expectations. It was a pleasure<br> to work with them on a sizable first project and am looking<br> forward to start the next one asap.“</span>
                         <span class="carousel__auth">MICHAEL HOPKINS</span>
-                        </div>
-                  </div>
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">    
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
-
-        <section class="clients">
-            <div class="container-xl">
-                <div class="d-flex justify-content-between">
-                    <div class="image-box3">
-                        <img src="IMG/1.png" alt="1" class="clients__image">
-                    </div>
-                    <div class="image-box3">
-                        <img src="IMG/2.png" alt="2" class="clients__image">
-                    </div>
-                    <div class="image-box3">
-                        <img src="IMG/3.png" alt="3" class="clients__image">
-                    </div>
-                    <div class="image-box3">
-                        <img src="IMG/4.png" alt="4" class="clients__image">
-                    </div>
-                    <div class="image-box3">
-                        <img src="IMG/5.png" alt="5" class="clients__image">
+                <div class="carousel-item">
+                    <div class="d-flex flex-column">
+                        <span class="carousel__desc">“ Outstanding job and exceeded all expectations. It was a pleasure<br> to work with them on a sizable first project and am looking<br> forward to start the next one asap.“</span>
+                        <span class="carousel__auth">MICHAEL HOPKINS</span>
                     </div>
                 </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
-        <section class="need">
-            <div class="container-xl">
-                <div class="d-flex flex-column justify-content-center">
-                    <h2 class="need__heading">Need a Project?</h2>
-                    <p class="need__desc">Let us know what you're looking for in an agency. We'll take a look and see<br> if this cloud be the start of something beautiful.</p>
-                    <div class="need__form d-flex flex-column">
-                        <div class="form__1row d-flex justify-content-between">
-                            <input type="text" placeholder="Your name" class="form__name">
-                            <input type="email" placeholder="Your email" class="form__email">
-                        </div>
-                        <p><input type="text" placeholder="Your title" class="form__title"></p>
-                        <p><textarea name="#" id="#" class="form__textarea" placeholder="Your comment"></textarea></p>
+    <section class="clients">
+        <div class="container-xl">
+            <div class="d-flex justify-content-between">
+                <div class="image-box3">
+                    <img src="img/1.png" alt="1" class="clients__image">
+                </div>
+                <div class="image-box3">
+                    <img src="img/2.png" alt="2" class="clients__image">
+                </div>
+                <div class="image-box3">
+                    <img src="img/3.png" alt="3" class="clients__image">
+                </div>
+                <div class="image-box3">
+                    <img src="img/4.png" alt="4" class="clients__image">
+                </div>
+                <div class="image-box3">
+                    <img src="img/5.png" alt="5" class="clients__image">
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        <div class="need-box">
+    <section class="need">
+        <div class="container-xl">
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="need__heading">Need a Project?</h2>
+                <p class="need__desc">Let us know what you're looking for in an agency. We'll take a look and see<br> if this cloud be the start of something beautiful.</p>
+                <div class="need__form d-flex flex-column">
+                    <div class="form__1row d-flex justify-content-between">
+                        <input type="text" placeholder="Your name" class="form__name">
+                        <input type="email" placeholder="Your email" class="form__email">
+                    </div>
+                    <p><input type="text" placeholder="Your title" class="form__title"></p>
+                    <p><textarea name="#" id="#" class="form__textarea" placeholder="Your comment"></textarea></p>
+
+                    <div class="need-box">
                         <button class="need__btn">SEND MESSAGE</button>
-                        </div>
-
                     </div>
+
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     </main>
 
     <footer class="footer">
@@ -305,30 +297,29 @@
                 </div>
 
                 <div class="links d-flex">
-                <div class="col_3 d-flex flex-column">
-                    <a href="#" class="footer__link">Projects</a>
-                    <a href="#" class="footer__link">About</a>
-                    <a href="#" class="footer__link">Services</a>
-                    <a href="#" class="footer__link">Carreer</a>
-                </div>
-                <div class="col_4 d-flex flex-column">
-                    <a href="#" class="footer__link">News</a>
-                    <a href="#" class="footer__link">Events</a>
-                    <a href="#" class="footer__link">Contact</a>
-                    <a href="#" class="footer__link">Legals</a>
-                </div>
-                <div class="col_5 d-flex flex-column">
-                    <a href="#" class="footer__link">Facebook</a>
-                    <a href="#" class="footer__link">Twitter</a>
-                    <a href="#" class="footer__link">Instagram</a>
-                    <a href="#" class="footer__link">Dribbble</a>  
-                </div>
+                    <div class="col_3 d-flex flex-column">
+                        <a href="#" class="footer__link">Projects</a>
+                        <a href="#" class="footer__link">About</a>
+                        <a href="#" class="footer__link">Services</a>
+                        <a href="#" class="footer__link">Carreer</a>
+                    </div>
+                    <div class="col_4 d-flex flex-column">
+                        <a href="#" class="footer__link">News</a>
+                        <a href="#" class="footer__link">Events</a>
+                        <a href="#" class="footer__link">Contact</a>
+                        <a href="#" class="footer__link">Legals</a>
+                    </div>
+                    <div class="col_5 d-flex flex-column">
+                        <a href="#" class="footer__link">Facebook</a>
+                        <a href="#" class="footer__link">Twitter</a>
+                        <a href="#" class="footer__link">Instagram</a>
+                        <a href="#" class="footer__link">Dribbble</a>
+                    </div>
                 </div>
 
             </div>
         </div>
     </footer>
-    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>

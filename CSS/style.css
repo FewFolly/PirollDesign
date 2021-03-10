@@ -1,73 +1,105 @@
-body{
-    background-color: #e9e9e9;
-}
-.row{
-    margin: 0;
-}
-/* HEADER */
-.header{
-    padding-top: 25px;
-}
-.nav__link{
-    margin-left: 30px;
-    font-weight: 500;
+.navbar-light .navbar-nav .nav-link
+{
     color: black;
-    text-decoration: none;
+    
 }
-.nav__link:hover{
+.BlueC
+{
     color: #10c9c3;
 }
-/* MAIN */
-
-/* PROMO */
-.promo{
-    padding-top: 175px;
-    margin-bottom: 175px;
+.navbar-collapse
+{
+    display: flex;
+    justify-content: flex-end;
 }
-.promo__heading{
-    font-weight: 700;
+.navbar-brand
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
 }
-.promo__desc{
-    max-width: 415px;  
-    margin-top: 20px;
-    color: #969696;
+.SectionBanner
+{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 670px;
 }
-.btn-box{
-    margin-top: 20px;
+.banner
+{
+    margin-right: 80px;
+    margin-top: 200px;   
 }
-.promo__btn{
-    padding: 15px 50px;
-    background-color: #10c9c3;
-    color: white;
+.bannerBtn
+{
+    padding: 10px 20px 10px 20px;
     border: none;
+    background-color:  #10c9c3;
+    color: white;
 }
-.promo__btn:hover{
-    color: black;
+.FlexDiv
+{
+    display: flex;
+    justify-content: flex-end;
+   
 }
-/* ABOUT */
-.about{
-    background-color: white;
-    padding-top: 125px;
-    padding-bottom: 100px;
+.About
+{
+    height: 420px;
+    
 }
-.about__heading{
-    text-align: center;
+
+.AboutUs
+{
+    
 }
-.about__desc{
-    text-align: center;
+.AboutFlex
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
 }
-/* SKILLS */
-.skills{
+.AboutH1
+{
+    margin-left: 210px;
+}
+.AboutImg
+{
+    margin-left: 190px;
+
+}
+.skills
+{
     padding-top: 165px;
     padding-bottom: 165px;
+    background-color: #f8f9f9;
 }
-.skills__heading{
-    font-weight: 700;
+.line
+{
+    background: linear-gradient(to right, #10c9c3, #D8D8D8);
 }
-.skill{
-    font-weight: 700;
+.skillsP
+{
+ margin-top: 25px;
+ width: 500px;
 }
-.skills__progress{
+.skillsFlex
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.skillsDiv
+{
+    Margin-top: 165px;
+    margin-left: 100px;
+}
+.skillsH2
+{
+    margin-bottom: 5px;
+}
+.skill__progress
+{
     height: 3px;
     width: 500px;
     background-color: #10c9c3;
@@ -75,7 +107,6 @@ body{
 progress::-webkit-progress-value {
     background: #10c9c3;
 }
-/* NUMBERS */
 .numbers{
     background-color: #10c9c3;
     padding: 100px 0;
@@ -86,10 +117,10 @@ progress::-webkit-progress-value {
 .numbers__heading{
     color: white;
 }
-.numbers__desc{
+.numbers__description{
     color: white;
 }
-/* WORK */
+/*  */
 .work__item{
     height: 300px;
 }
@@ -118,12 +149,8 @@ progress::-webkit-progress-value {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    text-decoration: none;
 }
-.work__btn:hover{
-    color: #10c9c3;
-}
-/* PROCESS */
+/*  */
 .process{
     background-color: white;
     padding-top: 100px;
@@ -139,7 +166,7 @@ progress::-webkit-progress-value {
 .process__video{
     margin-top: 60px;
 }
-/* SERVICES */
+/*  */
 .services{
     padding: 100px 0;
 }
@@ -155,7 +182,7 @@ progress::-webkit-progress-value {
 .services__desc{
     text-align: center;
 }
-/* CAROUSEL */
+/*  */
 .carousel{
     background-color: #10c9c3;
     padding-bottom: 60px;
@@ -175,14 +202,14 @@ progress::-webkit-progress-value {
     font-size: 14px;
     letter-spacing: 2px;
 }
-/* CLIENTS */
+/*  */
 .clients{
     background-color: #ffffff;
     padding: 65px 0;
 }
-/* NEED */
+/*  */
 .need{
-   padding: 100px 0; 
+    padding: 100px 0;
 }
 .need__heading{
     text-align: center;
@@ -259,37 +286,129 @@ progress::-webkit-progress-value {
 .col_5,.col_4{
     margin-left: 100px;
 }
+.row
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0 0px 0px 0px;
+}
+.UIDesign
+{
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.AboutPromo
+{
+    background-color: #3e3e3e;
+    height: 350px;
+}
+.AboutPromo
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.aboutmeblock
+{
+    display: flex;
+    flex-direction: row;
+}
+.greyBlock
+{
+    width: 50%;
+    height: 568px;
+    background-color: #e1e1e1;
+}
+.whiteBlock
+{
+    width: 50%;
+    height: 568px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.whiteBlockH3
+{
+    color: black;
+    margin-bottom: 15px;
 
-
-
-
-
-/* *********************************************************** */
-/* HOME.HTML */
-.header2{
+}
+.whiteBlockImg
+{
+    width: 250px;
+}
+.NeedProject
+{
     background-color: white;
-    padding-bottom: 25px;
-}
-/*  */
-.design{
-    padding: 100px 0;
-}
-.design__heading{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 35px;
-    font-weight: 700;
 }
-.design__desc{
-    text-align: center;
+.NeedProjectBtn
+{
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    border: none;
+    background-color:  #10c9c3;
+    color: white;
+}
+.LightBreak
+{
+    display: flex;
+    flex-direction: row;
+}
+.LightBreakH3
+{
+    color: black;
+    margin-bottom: 15px;
+}
+.whiteBlock2
+{
+    width: 50%;
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.BlackT
+{
+    margin-top: 10px;
+    color: black;
+}
+.LightBreakP
+{
     color: #787878;
-    font-weight: 600;
 }
-/*  */
-.work__item2{
-    height: 300px;
+.LightBreakPCDS
+{
+    margin-top: 30px;
+    color: #787878;
 }
-.work__item2:hover{
-    background: url('../IMG/look.png') no-repeat #21bfb9;
-    background-position: center center;
-    cursor: pointer;
+.previousProject
+{
+    display: flex;
+    justify-content: center;
+}
+.ContactInfo
+{
+    background-color: #f5f5f5;
+    height: 1180px;
+}
+.conactinfoBlock
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
